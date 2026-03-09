@@ -1,0 +1,31 @@
+# ─── Java / Maven ────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+# ─── Spring Boot / IntelliJ ──────────
+.idea/
+*.iml
+.vscode/
+# ─── Variáveis de ambiente ───────────
+.env
+.env.local
+.env.*.local
+application-local.properties
+application-local.yml
+# ─── Logs ───────────────────────────
+*.log
+logs/
+# ─── Sistema operativo ───────────────
+.DS_Store
+Thumbs.db"" 
+"# Python" 
+"__pycache__/" 
+"*.pyc" 
+"venv/" 
+".env" 
+# -----Other files
+k8s/
+elk-stack/
+review-service/
